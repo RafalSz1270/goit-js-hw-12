@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search App</title>
+    <link rel="stylesheet" href="./css/image-search-app.css" />
+  </head>
+  <body>
+    <div class="search-form">
+      <input
+        class="form"
+        type="text"
+        id="searchQuery"
+        placeholder="Search for images..."
+      />
+      <button type="submit" id="searchButton">Search</button>
+      <button id="load-more" style="display: none">Load more</button>
+    </div>
+    <span class="loader"></span>
+    <div class="gallery" id="gallery"></div>
+    <script type="module" src="./js/image-search-app.js"></script>
+  </body>
+</html>
