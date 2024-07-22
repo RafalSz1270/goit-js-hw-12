@@ -7,18 +7,16 @@
     <link rel="stylesheet" href="./css/image-search-app.css" />
   </head>
   <body>
-    <div class="search-form">
-      <input
-        class="form"
-        type="text"
-        id="searchQuery"
-        placeholder="Search for images..."
-      />
-      <button type="submit" id="searchButton">Search</button>
-      <button id="load-more" style="display: none">Load more</button>
-    </div>
-    <span class="loader"></span>
+    <form class="search-form">
+      <input type="text" id="searchQuery" placeholder="Search images..." />
+      <button type="button" id="searchButton">Search</button>
+    </form>
     <div class="gallery" id="gallery"></div>
-    <script type="module" src="./js/image-search-app.js"></script>
+
+    <button id="loadMore">Load more</button>
+
+    <span class="loader"></span>
+
+    <script type="module" src="./js/script.js"></script>
   </body>
 </html>

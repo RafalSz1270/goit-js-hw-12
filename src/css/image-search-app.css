@@ -20,6 +20,9 @@
  .picture {
     width: 200px;
  }
+#loadMore {
+       display: none;
+   }
 
  .loader {
      display: none;
